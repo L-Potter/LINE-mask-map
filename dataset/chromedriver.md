@@ -32,3 +32,20 @@ https://chromedriver.storage.googleapis.com/83.0.4103.14/notes.txt
 $ unzip chromedriver_linux64.zip  
 $ chmod +x chromedriver  
 $ sudo mv chromedriver /usr/bin/
+
+## ARM Raspbian install Selenium+Chrome
+
+* ### Selenium
+> $ pip3 install selenium
+
+* ### chromium
+> \# apt-get install chromium-browser
+
+* ### chromium-chromedriver
+> \# apt install chromium-chromedriver
+
+### Description:
+
+WebDriver driver for the Chromium Browser
+
+Chromedriver serves as a bridge between Chromium Browser and Selenium WebDriver. . See https://sites.google.com/a/chromium.org/chromedriver/ for details.
